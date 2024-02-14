@@ -33,17 +33,18 @@ body {
 }
 
 .button-primary {
-    background: black;
+    background: #800f2f;
     color: white;
     border-style: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 12px 32px;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .gif {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     object-fit: contain;
 }
 
@@ -54,4 +55,8 @@ body {
 
 .hidden {
     display: none;
+}
+
+.mt-3 {
+    margin-top: 32px;
 }
